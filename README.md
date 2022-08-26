@@ -7,7 +7,7 @@
 
 ## Demo
 
-* [deployed combination-user](https://zeonardo.github.io/countdown)
+* [deployed countdown](https://zeonardo.github.io/countdown)
 
   
 
