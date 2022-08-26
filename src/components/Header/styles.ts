@@ -6,7 +6,7 @@ const StyledHeader = styled.header `
   justify-content: flex-start;
   align-items: center;
   color: ${config.color.white};
-  background-color: ${config.color.black};
+  background-color: ${config.color.primary};
   height: 3.10rem;
   padding: 0.6rem 1rem;
   z-index: 1;

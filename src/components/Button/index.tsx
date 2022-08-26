@@ -7,8 +7,7 @@ const Button = ({ theme = 'primary', children, className, ...rest }: ButtonProps
       className={`button button--${theme}${rest.disabled ? ` button--disabled` : ''}${className ? ` ${className}` : ''}`}
       name={theme}
       theme={theme}
-      type="button"
-      role="button"
+      type="submit"
       {...rest}
     >
       {children}

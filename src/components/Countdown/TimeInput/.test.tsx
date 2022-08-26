@@ -36,7 +36,7 @@ test('TimeInput has default digits', () => {
   expect(inputSeconds).toHaveAttribute('value', '3')
 });
 
-//TODO: implement TimeInput form test
+// TODO: implement TimeInput form test
 /* 
 test('TimeInput returns time', () => {
   let inputTime = {}
@@ -45,8 +45,8 @@ test('TimeInput returns time', () => {
     inputTime = time
   }
   render(<TimeInput data-testid="test-form" defaultTime={{ hours: 1, minutes: 2, seconds: 3}} active={true} onSubmit={handleSubmit}/>)
-  const form = screen.getByTestId('test-form')
-  fireEvent.submit(form)
+  const button = screen.getByRole('button', { name: /start/i })
+  fireEvent.click(button)
   console.log('>>', inputTime)
 });
  */

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react"
-import { start } from "repl"
 import Button from "../../Button"
 import { Time } from "../types"
 import StyledTimeInput, { StyledInput } from "./styles"
@@ -20,6 +19,7 @@ const TimeInput = ({ defaultTime, active, onSubmit, ...rest }: TimeInputProps) =
   }
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    console.log('handleSubmit')
     event.preventDefault()
     if(!active
       || (!inputHours?.current?.value
